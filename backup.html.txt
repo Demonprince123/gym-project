@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ours story</title>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap"
+    rel="stylesheet"
+  />
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <style>
+    /* CSS Reset */
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      font-family: "Baloo Bhai", cursive;
+      color: rgb(250, 250, 250);
+      margin: 0px;
+      padding: 0px;
+      background: url("/w.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      -ms-overflow-style: none; 
+      scrollbar-width: none;
+    }
+   .body::-webkit-scrollbar { 
+     display: none;
+    }  
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .left {
+      width: 4%;
+      /* border: 2px solid red; */
+    }
+    .left img {
+      background-color: transparent;
+      line-height: inherit;
+      color: #059;
+      text-decoration: none;
+      cursor: pointer;
+      display: block;
+      width: 60px;
+      /* filter: invert(100%); */
+    }
+
+    .mid {
+      font-family: "Times New Roman", Times, serif;
+      color: #9f95b4;
+      width: 10%;
+      /* border: 2px solid rgb(74, 72, 94); */
+    }
+    .right {
+      font-family: Arial, sans-serif;
+      color: #9f95b4;
+      right: 623px;
+      display: block;
+      /* border: 2px solid yellow; */
+      width: 20%;
+      margin: 20px 0px;
+    }
+    .container {
+      display: flex;
+      overflow: auto;
+      flex-direction: column;
+      align-items: center;
+    }
+    .gallery {
+      margin: 5px;
+      border: 1px solid #000000;
+      float: left;
+      width: 390px;
+    }
+    .gallery img {
+      width: 25vw;
+      height: auto;
+    }
+    .desc {
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 73px;
+      text-align: center;
+    }
+    
+    footer{
+      padding: 10px;
+      font-size: 17px;
+      font-weight: bold;
+      text-align: center;
+      background: #393939;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 1px;
+    }
+  </style>
+
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="/logo.png" alt="" />
+      </div>
+      <div class="right">
+        <h2>True Heros transformation</h2>
+      </div>
+      <div class="mid">
+        <h1>Ours story</h1>
+      </div>
+      <div class="container">
+        <div class="gallery">
+          <img src="/img/shenaaz.png" alt="" />
+          <div class="desc">  <h3>Shehnaaz Gill</h3> surprised everyone with her transformation. Shahnaz had reduced12 kg in just 6 months.Shehnaaz Gill did not eat chocolate, ice cream, junk and processed food at all during her weight loss journey. Apart from this, she gave up on non-veg food. According to Shahnaz, she stopped eating outside food, due to which it became easy for her to lose those kilos.</div>
+        </div>
+        <div class="gallery">
+          <img src="/img/Amir.png" alt="" />
+          <div class="desc"><H3>Aamir Khan</H3> Fitness Regime & Diet: From Eating 1500 Calories To Working Out For 7-8 Hours In A
+             Day,Here’s How Mr Perfectionist Gained Muscle For Dangal He weighed at that time 97 kgs with 37 per cent body fat. In just four months, he reduced body fat to 18.15 per cent. And the training continued till he reached 9.6 per cent body fat.</div>
+        </div>
+        <div class="gallery">
+          <img
+            src="/img/wow.png"
+            alt=""
+          />
+          <div class="desc"> <H3>Body Transformation</H3>is the process of becoming aware of, working on and implementing changes to your mindset and habits regarding resistance training, fitness, nutrition and daily routines based on your personal goals and values.</div>
+        </div>
+        <div class="gallery">
+          <img src="/img/ARJUN.png" alt="" />
+          <div class="desc"> <h3>Arjun Kapoor</h3>transformed himself entirely by following a strict exercise regime and diet plan. Have a look at his phenomenal weight loss journey. Any transformation needs immense motivation and hardwork, and the hunk Arjun Kapoor has proven it with his journey from fat to fit. Have a look at his inspirational journey</div>
+        </div>
+
+        <div class="gallery">
+          <img
+            src="/img/JOHN.png"
+            alt=""
+          />
+          <div class="desc">Yes, I firmly believe that anyone can change and transform their bodies but the truth is it isn’t easy (like they say) “if it was everyone would do it” and everyone would look exactly how they want to.It takes a lot of hard work (change is never easy) </div>
+        </div>
+      </div>
+    </header>
+    <footer>
+      “You can’t have a physical transformation until you have a spiritual transformation.”
+    </footer>
+  </body>
+</html>
